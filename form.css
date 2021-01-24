@@ -1,0 +1,94 @@
+h2{
+	padding-left:100px;
+}
+
+h3{
+	padding-left: 60px;
+}
+#add1{
+	margin-left: 52px;
+	width:120px;
+}
+#add2,#add4,#add6{
+	width:162px;
+	margin-top:4px;
+}
+
+#add3,#add5{
+	margin-left: 120px;
+	width: 120px;
+}
+#label-country{
+	margin-left:60px;
+	width:300px;
+}
+#label-name{
+	margin-left:70px;
+	width:130px;
+}
+#label-lastname{
+	width:150px;
+
+}
+#label-email{
+	margin-left:68px; 
+	width:290px;
+}
+#label-phone{
+	margin-left:12px;
+	width:292px;
+}
+#label-gender{
+	margin-left:60px;
+	width:300px;
+
+}
+ #ipcitizen{ 
+	margin-left:60px;
+	width:292px;
+
+}
+#de{
+	margin-left:21px;
+	width:80px;
+}
+#dme{
+	width:80px;
+}
+#dye{
+	width:109px;
+}
+form{
+	position: relative;
+	top:30px;
+}
+
+.button{
+	width:300px;
+	background-color: rgb(67, 114, 245);
+	border:0px;
+	padding:5px;
+	color:white;
+	font-weight: 700;
+	position: relative;
+	left:120px;
+	top:20px;
+}
+.form-elements
+{
+	background-image:url('pcwallart.jpg'); 
+
+	color:white;
+	position: absolute;
+	left:450px;
+	top:30px;
+	border:1px solid black;
+	width: 500px;
+	height: 540px;
+}
+.text-elements
+{
+	position:absolute;
+	left:35px;
+	top:5px;
+}
