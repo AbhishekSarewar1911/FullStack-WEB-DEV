@@ -66,6 +66,13 @@ include('config.php');
 		<td><select name = "city" required>
 			<option>Select City</option>
 			<option value="Dehradun">Dehradun</option>
+			<option value="Delhi">Delhi</option>
+		        <option value="Mumbai">Mumbai</option>
+			<option value="Jaipur" >Jaipur</option>
+			<option value="Kolkata">Kolkata</option>
+			<option value="Agra">Agra</option>
+			<option value="Mussoorie">Mussoorie</option>
+			<option value="Patna">Patna</option>
 			<option value="Delhi" >Delhi</option>
 			<option value="Jaipur">Jaipur</option>
 		</select>
