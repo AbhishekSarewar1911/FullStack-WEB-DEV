@@ -85,9 +85,14 @@ if(isset($_POST['update'])){
 	<tr><td>City 
 		<td><select name = "city" required>
 			<option>Select City</option>
-			<option value="Dehradun" <?php if($city == "Dehradun"){echo "selected";}?>>Dehradun</option>
+				<option value="Dehradun" <?php if($city == "Dehradun"){echo "selected";}?>>Dehradun</option>
 			<option value="Delhi"    <?php if($city == "Delhi"){echo "selected";}?>>Delhi</option>
+		        <option value="Mumbai" <?php if($city=="Mumbai"){echo "selected";}?>>Mumbai</option>
 			<option value="Jaipur"   <?php if($city == "Jaipur"){echo "selected";}?>>Jaipur</option>
+			<option value="Kolkata" <?php if($city=="Kolkata"){echo "selected";}?>>Kolkata</option>
+			<option value="Agra" <?php if($city=="Agra"){echo "selected";}?>>Agra</option>
+			<option value="Mussoorie" <?php if($city=="Mussoorie"){echo "selected";}?>>Mussoorie</option>
+			<option value="Patna" <?php if($city=="Patna"){echo "selected";}?>>Patna</option>
 		</select>
 	</td></tr>
 	
