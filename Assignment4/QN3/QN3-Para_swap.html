@@ -1,0 +1,33 @@
+<html>
+<head>
+    <title>Swap Content</title>
+    <style type="text/css">
+        p{
+            width:500px;
+            border: 1px solid black;
+        }
+        #btn{
+            background-image: linear-gradient(to top, #bd1be2,rgba(223, 203, 230, 0));
+        }
+
+    </style>
+</head>
+<body>
+    
+    <p id="para1">PARAGRAPH-1   PARAGRAPH FOR SWAPPING 1</p>
+    <p id="para2">PARAGRAPH-2 paragraph for swapping 2</p>
+    <button id="btn">SWAP PARA</button>
+    <script type="text/javascript">
+        document.getElementById('btn').addEventListener('click', function(){
+            p1 = document.getElementById('para1');
+            p2 = document.getElementById('para2');
+
+            p1Content = p1.innerText;
+            p2Content = p2.innerText;
+
+            p1.innerText = p2Content;
+            p2.innerText = p1Content;
+        });
+    </script>
+</body>
+</html>
