@@ -1,0 +1,45 @@
+<!--JavaScript - Print All Links (Hyperlinks) with HREF Attribute, Total Number of Links in a Page.-->
+<html>
+	<head>
+		<title>JavaScript - Extract All Links (Hyperlinks) with HREF Attribute And Show Total Number of Links in a Page.</title>
+		<!--Example CSS-->
+		<!-- <link href="ExampleStyle.css" type="text/css" rel="stylesheet"/> -->
+		<style>
+            #bt1{
+                background-image: linear-gradient(to top, #4d4d4d,rgb(0,0,0,0));
+            }
+            #bt2{ 
+                background-image: linear-gradient(to top, #4d4d4d,rgb(0,0,0,0));
+            }
+        </style>
+		<script type="text/javascript">
+			function getTotalLinks(){
+				var n=document.links.length;
+				document.getElementById("pLinks").innerHTML="Total number of links: " + n;				
+			}
+			
+			function printAllLinks(){
+				var totalLinks=document.links.length;
+				document.getElementById("pLinks").innerHTML="";
+				for(var i=0;i<totalLinks;i++){
+					document.getElementById("pLinks").innerHTML+=
+						"Link: " + document.links[i].innerHTML +
+						" is linked to: " + document.links[i].href+"<br/>";
+				}
+			}
+		</script>
+	</head>
+	<body>
+		
+		<p>
+			<h1>JavaScript - Extract All Links (Hyperlinks) with HREF Attribute And Show Total Number of Links in a Page</h1><br><br>
+			<h2>THESE ARE SOME LINKS IN OUR WEBPAGE</h2>
+            <a href="https://www.google.com">google</a><br>
+            <a href="https://www.facebook.com">facebook</a><br>
+			<a href="https://www.amazon.com">amazon</a><br><br>
+		</p>		
+		<input id="bt1" type="button" value="SHOW ALL LINKS" onclick='getTotalLinks()'/>
+		<input id="bt2" type="button" value="EXTRACT ALL LINKS" onclick='printAllLinks()'/>
+		<p id="pLinks"></p>
+	</body>
+</html>
